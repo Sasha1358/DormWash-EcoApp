@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="wash_result">Температура: %1$d°C\nВіджим: %2$d об/хв\nЧас прання: %3$d хв\nЗасіб: %4$d мл\n\nРекомендація:\n%5$s</string>
+</resources>
