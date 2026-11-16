@@ -38,7 +38,7 @@ POST /api/eco-mode — генерація ШІ-рекомендацій для �
 
 Приклад запиту: {"fabric_type": "бавовна", "color": "білий", "dirt_level": "сильне"}
 
-Приклад відповіді: {"temperature": 60, "spin_speed": 1000, "duration_minutes": 90, "detergent_ml": 80, "ai_explanation": "Для сильно забрудненої білої бавовни потрібна вища температура..."}
+Приклад відповіді: {"temperature": 60, "spin_speed": 1000, "duration_minutes": 90, "detergent_ml": 50, "ai_explanation": "Для білої бавовни та сильних забруднень оптимально використовувати температуру 60С для ефективного розщеплення бруду без зайвих енерговитрат"}
 
 Swagger UI доступний за адресою: http://localhost:8000/docs
 
