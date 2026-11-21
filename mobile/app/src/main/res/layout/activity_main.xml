@@ -5,11 +5,22 @@
     android:orientation="vertical"
     android:padding="24dp">
 
+    <!-- 1. Поле для введення типу тканини -->
     <EditText
         android:id="@+id/etFabric"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Тип тканини (напр., Бавовна)" />
+        android:hint="Введіть тип тканини"
+        android:inputType="text" />
+
+    <!-- 2. Нове поле для введення ваги -->
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_weight_kg"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/btnSend"
@@ -17,6 +28,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Отримати Еко-режим" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Історія прання" />
 
     <TextView
         android:id="@+id/tvResult"
